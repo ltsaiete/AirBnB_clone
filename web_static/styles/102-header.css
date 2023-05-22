@@ -1,0 +1,12 @@
+header {
+	height: 70px;
+	background: #fff;
+	border-bottom: 1px solid #cccccc;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
+}
+
+header::before {
+	content: url(../images/logo.png);
+}
